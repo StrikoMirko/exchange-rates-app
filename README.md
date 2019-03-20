@@ -1,6 +1,6 @@
-# xchange rate test app
+# Exchange rate test app
 
-This is a POC Reaft route, React-Redux app connecting to Exchange rate API (https://exchangeratesapi.io/).
+This is a POC React router, React-Redux app connecting to Exchange rate API (https://exchangeratesapi.io/).
 
 Its sort of nice-ish :D.
 
