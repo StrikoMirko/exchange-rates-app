@@ -1,0 +1,41 @@
+html {
+  font-family: $font-family-base;
+  line-height: $line-height-base;
+
+  @include fluid-type($min-supported-width, $content-width-constraint, $font-size-base, $font-size-max);
+}
+
+body {
+  background-color: $WHITE;
+  color: $text-color;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  min-width: $min-supported-width;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:visited { color: $link-color-visited; }
+  &:hover { color: $link-color-hover; }
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+input {
+  color: $text-color;
+  font-size: 1rem;
+  font-family: $font-family-base;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: sub;
+}

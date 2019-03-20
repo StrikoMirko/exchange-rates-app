@@ -1,0 +1,35 @@
+.exchange-rates-table {
+  width: 100%;
+  background-color: $gray-5;
+  padding: 0 10px;
+
+  tr:nth-child(2n) {
+    background-color: $gray-2;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    button {
+      font-size: $font-size-small;
+      cursor: pointer;
+      padding: 5px 20px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 10px;
+    }
+  }
+
+  &__info {
+    font-size: $font-size-small;
+    font-weight: normal;
+    padding: 0;
+    margin-right: 10%;
+    display: inline-block;
+    &--hidden {
+      display: none;
+    }
+  }
+}

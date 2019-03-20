@@ -1,0 +1,10 @@
+.header-navbar {
+  display: inline-block;
+  margin: 5px;
+
+  &__link {
+    padding: 5px;
+    font-size: $font-size-medium;
+    cursor: pointer;
+  }
+}
